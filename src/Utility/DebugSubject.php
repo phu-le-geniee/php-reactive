@@ -51,6 +51,6 @@ class DebugSubject extends Subject
 
     private function id()
     {
-        return ' [' . $this->identifier . ' ]';
+        return ' [' . $this->identifier . ']';
     }
 }
