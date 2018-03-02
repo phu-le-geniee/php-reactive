@@ -1,0 +1,15 @@
+{
+    "name": "phu-le/php-reactive",
+    "description": "Learning RxPHP",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "phu-le-geniee",
+            "email": "phu.le@geniee.co.jp"
+        }
+    ],
+    "require": {
+        "reactivex/rxphp": "1.x"
+    }
+}
