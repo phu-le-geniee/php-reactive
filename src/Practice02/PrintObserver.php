@@ -1,4 +1,5 @@
 <?php
+namespace RxPHP\Two;
 
 require __DIR__ . '/../vendor/autoload.php';
 

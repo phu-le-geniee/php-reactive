@@ -1,9 +1,12 @@
 <?php
 
-require __DIR__ . '/../vendor/autoload.php';
+namespace RxPHP\One;
 
-use \Rx\Observer\CallbackObserver;
-use \Rx\Observable;
+require_once __DIR__ . "/../../vendor/autoload.php";
+
+use Rx\Observer\CallbackObserver;
+use Rx\Observable;
+
 
 $fruits     = ['apple', 'banana', 'orange', 'raspberry'];
 $observer   = new CallbackObserver(function ($value) {

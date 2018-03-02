@@ -9,6 +9,11 @@
             "email": "phu.le@geniee.co.jp"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "RxPHP\\": "src/"
+        }
+    },
     "require": {
         "reactivex/rxphp": "1.x"
     }
